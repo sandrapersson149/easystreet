@@ -8,22 +8,18 @@ html {
     font-family: 'Thasadith', sans-serif;
     color: rgb(75, 75, 75);
 }
-
 ul, nav {
     list-style: none;
 }
-
 a{
     text-decoration: none;
     opacity: 0.7;
     color: rgb(75, 75, 75);
 }
-
 a:hover{
     opacity: 1;
     cursor: pointer;
 }
-
 .logo {
     display: flex;
     flex-direction: column;
@@ -48,7 +44,6 @@ ul.grid {
     justify-content: center;
     flex-wrap: wrap;
 }
-
 header{
     position: absolute;
     top: 0;
@@ -59,13 +54,11 @@ header{
     padding: 20px 100px;
     color: #fff;
 }
-
-
-
 .logo h1{
     font-size: 100px;
     font-family: 'Megrim', cursive;
 }
+
 @media (max-width:1000px){
     .logo h1{
         font-size: 50px;
@@ -81,11 +74,9 @@ display: flex;
 header li{
     padding: 0 35px;
 }
-
 header li a {
     font-size: 20px;
 }
-
 header nav li:first-child{
     margin-left: 0;
 }
@@ -111,13 +102,11 @@ hr{
     background-color: rgb(241, 30, 30);
     margin-top: 150px;
 }
-
 section h3.title {
     font-size: 35px;
     text-transform: uppercase;
     text-align: center;
 }
-
 .wrapper{
     margin: 50px;
     margin-bottom: 150px;
@@ -132,7 +121,6 @@ section h3.title {
     height: 350px;
     padding: 20px;
     margin: 20px;
-    /* background: gray; */
 }
 .quote {
     font-size: 25px;
@@ -154,6 +142,7 @@ section h3.title {
         flex-basis: 90%;
     }
 }
+
 .contact {
     margin: 50px auto;
     padding: 12px;
@@ -170,19 +159,16 @@ section h3.title {
     padding: 10px;
     text-align: center;
 }
-
 .member label {
     font-size: 20px;
     margin: 10px;
 }
-
 .member input {
     padding: 10px;
     font-size: 18px;
     border-radius: 10px;
     border: hidden;
 }
-
 .member .btn {
     background: rgb(70, 150, 243);
     color: white;
@@ -229,7 +215,6 @@ section h3.title {
     background-position: center;
     background-color: #333;
 }
-
 .pics .grid li.small{
     flex-basis: 50%;
 }
@@ -241,6 +226,7 @@ section h3.title {
     font-size: 20px;
     text-align: center;
 }
+
 @media (max-width: 950px) {
     .pics .grid li.small,
     .pics .grid li.large {
@@ -255,8 +241,15 @@ section h3.title {
     .pics .grid li {
         height: 300px;
     }
+    section h3.title {
+        font-size: 25px;
+    }
+    .pics p{
+        width: 80%;
+        font-size: 20px;
+        text-align: center;
+    }
 }
-
 
 footer{
     background-color: rgb(233, 233, 233);
